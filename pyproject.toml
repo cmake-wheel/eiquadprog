@@ -1,0 +1,14 @@
+[project]
+name = "eiquadprog"
+version = "1.2.5"
+description = "C++ implementations of the algorithm of Goldfarb and Idnani for the solution of a (convex) QP"
+readme = "README.md"
+license= "LGPL-3.0-or-later"
+dependencies = ["cmeel-boost", "cmeel-eigen"]
+
+[project.urls]
+homepage = "https://github.com/stack-of-tasks/eiquadprog"
+
+[build-system]
+requires = ["cmeel[build]", "cmeel-eigen", "cmeel-boost"]
+build-backend = "cmeel.build"
