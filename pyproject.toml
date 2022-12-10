@@ -12,3 +12,4 @@ homepage = "https://github.com/stack-of-tasks/eiquadprog"
 [build-system]
 requires = ["cmeel[build]", "cmeel-eigen", "cmeel-boost"]
 build-backend = "cmeel.build"
+build-number = 1
