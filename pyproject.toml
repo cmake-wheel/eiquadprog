@@ -10,7 +10,7 @@ dependencies = ["cmeel-boost", "cmeel-eigen"]
 homepage = "https://github.com/stack-of-tasks/eiquadprog"
 
 [tool.cmeel]
-build-number = 1
+build-number = 2
 
 [build-system]
 requires = ["cmeel[build]", "cmeel-eigen", "cmeel-boost"]
