@@ -2,7 +2,6 @@
 name = "eiquadprog"
 version = "1.2.6"
 description = "C++ implementations of the algorithm of Goldfarb and Idnani for the solution of a (convex) QP"
-readme = "README.md"
 license= "LGPL-3.0-or-later"
 dependencies = ["cmeel-boost", "cmeel-eigen"]
 
