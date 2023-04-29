@@ -1,13 +1,16 @@
+[build-system]
+build-backend = "cmeel.build"
+requires = ["cmeel-boost", "cmeel-eigen", "cmeel[build]"]
+
 [project]
+dependencies = ["cmeel-boost", "cmeel-eigen"]
+description = "C++ implementations of the algorithm of Goldfarb and Idnani for the solution of a (convex) QP"
+license = "LGPL-3.0-or-later"
 name = "eiquadprog"
 version = "1.2.6"
-description = "C++ implementations of the algorithm of Goldfarb and Idnani for the solution of a (convex) QP"
-license= "LGPL-3.0-or-later"
-dependencies = ["cmeel-boost", "cmeel-eigen"]
 
 [project.urls]
 homepage = "https://github.com/stack-of-tasks/eiquadprog"
 
-[build-system]
-requires = ["cmeel[build]", "cmeel-eigen", "cmeel-boost"]
-build-backend = "cmeel.build"
+[tool.tomlsort]
+all = true
