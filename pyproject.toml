@@ -12,5 +12,8 @@ version = "1.2.6"
 [project.urls]
 homepage = "https://github.com/stack-of-tasks/eiquadprog"
 
+[tool.cmeel]
+py3-none = true
+
 [tool.tomlsort]
 all = true
