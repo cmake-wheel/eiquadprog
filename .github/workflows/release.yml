@@ -64,4 +64,4 @@ jobs:
           python-version: "3.11"
       - uses: actions/download-artifact@v3
       - run: python -m pip install twine
-      - run: python -m twine upload -u __token__ -p "${{ secrets.PYPI_TOKEN }}" artifact/eiquadprog*.yml
+      - run: python -m twine upload -u __token__ -p "${{ secrets.PYPI_TOKEN }}" artifact/eiquadprog*.whl
