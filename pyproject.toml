@@ -13,7 +13,7 @@ version = "1.2.6"
 homepage = "https://github.com/stack-of-tasks/eiquadprog"
 
 [tool.cmeel]
-build-number = 3
+build-number = 4
 py3-none = true
 
 [tool.tomlsort]
