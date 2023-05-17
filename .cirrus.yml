@@ -14,10 +14,10 @@ macos_arm64_task:
     - ln -s python3 /opt/homebrew/opt/python@3.10/bin/python
   install_deps_script:
     - python -m pip install -U pip
-    - python -m pip install cibuildwheel twine
+    - python -m pip install twine
   run_wheel_script:
     - python -m pip wheel -vw wh .
   publish_script:
-    - python -m twine upload -u __token__ wheelhouse/eiquadprog*.whl
+    - python -m twine upload -u __token__ wh/eiquadprog*.whl
   wheels_artifacts:
-    path: "wheelhouse/*"
+    path: "wh/*"
