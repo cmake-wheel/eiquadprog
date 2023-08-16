@@ -14,7 +14,7 @@ homepage = "https://github.com/stack-of-tasks/eiquadprog"
 
 [tool.cmeel]
 build-number = 7
-py3-none = true
+has-sitelib = false
 
 [tool.tomlsort]
 all = true
