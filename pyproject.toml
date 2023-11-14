@@ -1,9 +1,9 @@
 [build-system]
 build-backend = "cmeel"
-requires = ["cmeel-boost < 1.83", "cmeel-eigen", "cmeel[build]"]
+requires = ["cmeel-boost ~= 1.83.0", "cmeel-eigen", "cmeel[build]"]
 
 [project]
-dependencies = ["cmeel-boost < 1.83", "cmeel-eigen"]
+dependencies = ["cmeel-boost ~= 1.83.0", "cmeel-eigen"]
 description = "C++ implementations of the algorithm of Goldfarb and Idnani for the solution of a (convex) QP"
 license = "LGPL-3.0-or-later"
 name = "eiquadprog"
