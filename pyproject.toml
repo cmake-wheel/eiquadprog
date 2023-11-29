@@ -7,7 +7,7 @@ dependencies = ["cmeel-boost ~= 1.83.0"]
 description = "C++ implementations of the algorithm of Goldfarb and Idnani for the solution of a (convex) QP"
 license = "LGPL-3.0-or-later"
 name = "eiquadprog"
-version = "1.2.7"
+version = "1.2.8"
 
 [project.urls]
 homepage = "https://github.com/stack-of-tasks/eiquadprog"
