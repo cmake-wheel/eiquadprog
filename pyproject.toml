@@ -10,7 +10,8 @@ name = "eiquadprog"
 version = "1.2.8"
 
 [project.urls]
-homepage = "https://github.com/stack-of-tasks/eiquadprog"
+homepage = "https://github.com/cmake-wheel/eiquadprog"
+upstream = "https://github.com/stack-of-tasks/eiquadprog"
 
 [tool.cmeel]
 has-sitelib = false
