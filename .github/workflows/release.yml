@@ -64,7 +64,7 @@ jobs:
       - name: install deps
         run: python -m pip install build cmeel[build] cmeel-boost cmeel-eigen
       - name: install wheel
-        run: python -m pip install -i "file://${{ github.workspace }}/wheelhouse" cmeel-tinyxml2
+        run: python -m pip install -i "file://${{ github.workspace }}/wheelhouse" cmeel-eiquadprog
 
   sdist:
     runs-on: ubuntu-24.04
@@ -108,7 +108,7 @@ jobs:
           merge-multiple: true
           path: dist
       - run: echo "TAG=${GITHUB_REF#refs/tags/}" >> $GITHUB_ENV
-      - run: gh release create -t "Release ${{ env.TAG}}" "${{ env.TAG }}" dist/cmeel_tinyxml2*.{whl,tar.gz}
+      - run: gh release create -t "Release ${{ env.TAG}}" "${{ env.TAG }}" dist/cmeel_eiquadprog*.{whl,tar.gz}
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       - name: Publish package distributions to PyPI
