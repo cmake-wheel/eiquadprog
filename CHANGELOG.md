@@ -7,7 +7,18 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
-## [1.3.0] - 1980-01-01
+## [1.3.2] - 2026-04-14
+
+- setup dockgen
+- drop cmake submodule
+- add missing includes
+
+## [1.3.1] - 2025-11-04
+
+- ROS: jrl_cmakemodules dependency
+- Ensure symbols are correctly exported on Windows
+
+## [1.3.0] - 2025-09-29
 
 - :warning: require C++ >= 14
 - setup nix packaging & CI
@@ -95,7 +106,9 @@ Maintenance release
 
 Initial Release
 
-[Unreleased]: https://github.com/stack-of-tasks/eiquadprog/compare/v1.3.0...HEAD
+[Unreleased]: https://github.com/stack-of-tasks/eiquadprog/compare/v1.3.2...HEAD
+[1.3.2]: https://github.com/stack-of-tasks/eiquadprog/compare/v1.3.1...v1.3.2
+[1.3.1]: https://github.com/stack-of-tasks/eiquadprog/compare/v1.3.0...v1.3.1
 [1.3.0]: https://github.com/stack-of-tasks/eiquadprog/compare/v1.2.9...v1.3.0
 [1.2.9]: https://github.com/stack-of-tasks/eiquadprog/compare/v1.2.8...v1.2.9
 [1.2.8]: https://github.com/stack-of-tasks/eiquadprog/v1.2.7...v1.2.8
